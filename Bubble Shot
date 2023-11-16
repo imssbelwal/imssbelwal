@@ -1,0 +1,29 @@
+- 👋 Hi, I’m @imssbelwal
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+imssbelwal/imssbelwal is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+import array
+from array import *
+#defining a funtion
+def pairwise_swap(arr):
+    n=len(arr)
+    for i in range(0, n-1):
+        for j in range (0, n-i-1):
+            if arr[j]>arr[j+1]:
+                arr[j],arr[j+1]=arr[j+1],arr[j]
+                
+#ending the definition
+
+#defining the array
+
+arr1 = array('i',[100,99,58,45,34,21])
+
+# calling the fucntion
+pairwise_swap(arr1)
+print(arr1)
